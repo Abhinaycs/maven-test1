@@ -1,9 +1,6 @@
 package com.example.javamavenjunithelloworld;
+// command-line application that prints "Hello" a specified number of times.
 
-/**
- * A very basic program that demonstrates the use of JUnit tests. The tests include a sample unit test and an
- * integration test.
- */
 public class HelloApp {
 
     static int DEFAULT_TIMES = 3;
@@ -11,11 +8,7 @@ public class HelloApp {
     static int EXIT_STATUS_PARAMETER_NOT_UNDERSTOOD = 2;
     static int EXIT_STATUS_HELLO_FAILED = 4;
 
-    /**
-     * The main method of this program.
-     *
-     * @param args Arguments passed to this program.
-     */
+   
     public static void main(String[] args) {
 
         int times = DEFAULT_TIMES;
